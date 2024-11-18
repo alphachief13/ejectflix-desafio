@@ -17,7 +17,7 @@ const cardArtigo = `
         <p class="card-descricao">{descricao}</p>
     </div>
 `;
-
+```
 
 
 ## Como a função vai saber quantas divs eu quero renderizar e quais são os dados de cada uma?
@@ -26,6 +26,7 @@ Você precisa ir no arquivo `utils/data.js` e criar um array de objetos. Cada ob
 
 Ex.:
 
+```javascript
 const cardArtigoData = [
     {
         imagem: "../img/home/artigos-e-materiais-home/artigo-1.png",
@@ -40,6 +41,7 @@ const cardArtigoData = [
         descricao: "Lorem ipsum dolor sit amet, consectetur",
     },
 ];
+```
 
 ## E como finalmente renderizar o template com os dados corretos? 
 
@@ -47,10 +49,12 @@ Depois de ter feito o data e o template correto para sua div, basta você ir no 
 
 Ex.:
 
-HTML:
+```html
 <div id="artigos">
 </div>
+```
 
-JAVASCRIPT:
+```javascript
 // id, data, template
 renderizarDivs("artigos", cardArtigoData, cardArtigo)
+```
