@@ -12,7 +12,7 @@ body, html{
 }
 
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../img/plano-fundo.jfif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../../img/plano-fundo.jfif');
     background-size: cover;
     background-position: center;
     
@@ -96,6 +96,19 @@ form input{
     font-size: 12px;
 }
 
+form a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: "Roboto Mono", monospace;
+}
+
+form a:hover{
+    text-decoration: underline;
+}
+
+
 form input::placeholder{
     color: rgba(219, 219, 219, 1);
 }
@@ -113,19 +126,6 @@ form input::placeholder{
     font-size: 12px;
     margin-bottom: 5px;
     letter-spacing: 1px;
-}
-
-
-form a{
-    color: white;
-    text-decoration: none;
-    font-size: 10px;
-    font-weight: 400;
-    font-family: "Roboto Mono", monospace;
-}
-
-form a:hover{
-    text-decoration: underline;
 }
 
 .container-form{
