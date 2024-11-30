@@ -22,35 +22,32 @@
                 
                 <div class="email-area">
                     <p class="titulo-email-input">Cadastre-se</p>
-                    <input type="text" placeholder="Email or phone number">
-
+                    <input id="email" type="email" placeholder="Email">
                 </div>
-                <input type="password" placeholder="Password">
-        
-                <button>Entrar</button>
+                <input id="senha" type= "password" placeholder="Senha">
+                
+                <button id="submit-btn">Entrar</button>
                 <a href="../../index.html">Já tenho uma conta</a>
                 
             </form>
         </div>
+        <p id="mensagem-form"></p>
     </main>
 
 
     <footer>
         <div class="footer-row">
-            <p>Made by Luiza Barbosa</p>
-            <img src="../../img/linkedin-icon.png" alt="logo do linkedin">
-            <img src="../../img/instagram-icon.png" alt="logo do instagram">
-            <img src="../../img/github-icon.png" alt="logo do github">
-        </div>
-        <div class="vertical-line"></div>
-        <div class="footer-row">
-            <p>Leticia Cibele</p>
+            <p>Made by Victor Cordeiro</p>
             <img src="../../img/linkedin-icon.png" alt="logo do linkedin">
             <img src="../../img/instagram-icon.png" alt="logo do instagram">
             <img src="../../img/github-icon.png" alt="logo do github">
         </div>
         
     </footer>
-    <script src="js/index.js"></script>
+    <script type="module" src="../../js/cadastro/cadastro.js"></script>
+
+    <!--axios-->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
 </body>
 </html>
